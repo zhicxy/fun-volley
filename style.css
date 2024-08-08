@@ -1,0 +1,119 @@
+:root {
+    --primary-color: #BFE900;
+    --secondary-color: #19253F;
+    --dark-color: #121212;
+    --light-color: #ffffff;
+}
+body{
+    margin-top: 120px;
+}
+.content {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.img-page-2{
+    height: 400px;
+    width: auto;
+}
+.bagan-cell{
+    color: var(--primary-color);
+    height: 30px;
+    width: auto;
+    background-color: var(--secondary-color);
+    border-radius: 3px;
+}
+.img-grey{
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    z-index: -1;
+}
+#bagan{
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-width: 1px;
+    border-radius: 8px;
+}
+.accent{
+    margin-top: 0;
+    height: 10px;
+    width: 250px;
+    background-color: var(--primary-color);
+}
+.navbar {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: var(--primary-color);
+    font-weight: 700;
+}
+
+.nav {
+    font-weight: 400;
+}
+
+
+.footer {
+    height: 300px;
+    background-color: var(--primary-color);
+    border-top-style: solid;
+    border-top-width: 8px;
+    border-top-color: var(--secondary-color);
+}
+.img-footer{
+    height: 10px;
+    width: auto;
+}
+.img-decor {
+    width: 800px;
+    height: auto;
+}
+h1{
+    font-weight: 900;
+}
+.img-bumn, .img-akhlak{
+    height: 13px;
+    width: auto;
+}
+.img-pln-np{
+   height: 30px;
+    width: auto;
+}
+
+.img-ranger{
+    height: 45px;
+    width: auto;
+}
+.img-79{
+    height: 90px;
+    width: auto;
+
+}
+.copyright{
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .img-decor {
+        width: 100px;
+        height: auto;
+
+    }
+.logo-wrap{
+    margin: 20px;
+}
+.logo-wrap>div{
+    margin: 20px;
+    text-align: center;
+}
+.footer{
+    height: 400px;
+    width: auto;
+}
+}
