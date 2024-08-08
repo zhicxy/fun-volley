@@ -97,7 +97,9 @@ h1{
     color: var(--secondary-color);
     font-size: 0.9rem;
 }
-
+.berita-wrapper{
+    max-width: 1000px;
+}
 
 @media only screen and (max-width: 767px) {
     .img-decor {
@@ -119,6 +121,7 @@ h1{
 .bagan-wrapper{
     overflow: auto;
 }
+
 }
 @media only screen and (max-width: 1439px) {
     .img-grey{
