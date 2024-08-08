@@ -4,9 +4,11 @@
     --dark-color: #121212;
     --light-color: #ffffff;
 }
-body{
+
+body {
     margin-top: 120px;
 }
+
 .content {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -15,36 +17,41 @@ body{
     margin: auto;
 }
 
-.img-page-2{
+.img-page-2 {
     height: 400px;
     width: auto;
 }
-.bagan-cell{
+
+.bagan-cell {
     color: var(--primary-color);
     height: 30px;
     width: auto;
     background-color: var(--secondary-color);
     border-radius: 3px;
 }
-.img-grey{
+
+.img-grey {
     position: absolute;
     top: 250px;
     left: 0px;
     z-index: -1;
 }
-#bagan{
+
+#bagan {
     border-style: solid;
     border-color: var(--primary-color);
     border-width: 1px;
     border-radius: 8px;
 
 }
-.accent{
+
+.accent {
     margin-top: 0;
     height: 10px;
     width: 250px;
     background-color: var(--primary-color);
 }
+
 .navbar {
     border-bottom-style: solid;
     border-bottom-width: 5px;
@@ -64,40 +71,49 @@ body{
     border-top-width: 8px;
     border-top-color: var(--secondary-color);
 }
-.img-footer{
+
+.img-footer {
     height: 10px;
     width: auto;
 }
+
 .img-decor {
     width: 800px;
     height: auto;
 }
-h1{
+
+h1 {
     font-weight: 900;
 }
-.img-bumn, .img-akhlak{
+
+.img-bumn,
+.img-akhlak {
     height: 13px;
     width: auto;
 }
-.img-pln-np{
-   height: 30px;
+
+.img-pln-np {
+    height: 30px;
     width: auto;
 }
 
-.img-ranger{
+.img-ranger {
     height: 45px;
     width: auto;
 }
-.img-79{
+
+.img-79 {
     height: 90px;
     width: auto;
 
 }
-.copyright{
+
+.copyright {
     color: var(--secondary-color);
     font-size: 0.9rem;
 }
-.berita-wrapper{
+
+.berita-wrapper {
     max-width: 1000px;
 }
 
@@ -106,25 +122,35 @@ h1{
         width: 100px;
         height: auto;
     }
-.logo-wrap{
-    margin: 20px;
-}
-.logo-wrap>div{
-    margin: 20px;
-    text-align: center;
-}
-.footer{
-    height: 400px;
-    width: auto;
+
+    .logo-wrap {
+        margin: 20px;
+    }
+
+    .logo-wrap>div {
+        margin: 20px;
+        text-align: center;
+    }
+
+    .footer {
+        height: 400px;
+        width: auto;
+    }
+    .card-berita{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+    }
+
+    .bagan-wrapper {
+        overflow: auto;
+    }
+
 }
 
-.bagan-wrapper{
-    overflow: auto;
-}
-
-}
 @media only screen and (max-width: 1439px) {
-    .img-grey{
-    display: none;    
+    .img-grey {
+        display: none;
     }
 }
