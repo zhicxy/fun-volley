@@ -45,6 +45,9 @@ body {
     border-radius: 8px;
 
 }
+table{
+    min-width: 400px;
+}
 
 .accent {
     margin-top: 0;
