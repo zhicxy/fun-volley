@@ -24,10 +24,11 @@ body {
 
 .bagan-cell {
     color: var(--primary-color);
-    height: 30px;
-    width: auto;
+    height: 40px;
+    width: 150px;
     background-color: var(--secondary-color);
     border-radius: 3px;
+    font-size: 0.9rem;
 }
 
 .img-grey {
