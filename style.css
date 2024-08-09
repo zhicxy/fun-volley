@@ -140,9 +140,14 @@ h1 {
 
 }
 
+.img-grey img{
+    width: 100%;
+}
+
+
 @media only screen and (max-width: 1439px) {
-    .img-grey {
-        display: none;
+    .img-grey img{
+        height: 650px;
     }
 
     .bagan-wrapper {
